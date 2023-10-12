@@ -395,5 +395,17 @@ const questions = [
             { id: '11', text: "self.participants doesn't make sense when self is a Participant."},
             { id: '12', text: "Good attempt at the OCL even though it isn't quite right!"}
         ]
+    },
+    {
+        number: 'Test Question',
+        question: 'This is a test question',
+        answers: [
+            { image: '/2023/Test-Student/done/Test-Question.png', correct: [2]}
+        ],
+        checkOptions: [
+            {id: '1', text: 'Good'},
+            {id: '2', text: 'Perfect'},
+            {id: '3', text: 'Bad'}
+        ]
     }
 ]
