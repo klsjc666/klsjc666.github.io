@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script defer src="script.js"></script>
+  <script defer src="new-script.js"></script>
   <style>
     .text-color {
       color: #0A335F;
@@ -147,11 +147,11 @@
     <div class="flex-row justify-content-lg-center">
       <div class="col-lg-3"> <img src="uofe.png" width="90%" height="90%"> </div>
       <div class="col-lg-6 text-center titletext"> <b> Software Design and Modelling (2023-2024)[SEM2] </b><br> 
-        Lab Assessment Revision Quiz (TEST)
+        Lab Assessment Revision Quiz 
       </div>
       <div class="col-lg-2"></div>
       <a href="/help.html">
-        <div class="col-lg-1"><button id="beginHelpButton" class="btn helpButton"><b>?</b></button></div> 
+        <div class="col-lg-1"><button id="beginHelpButton" class="btn helpButton"><b>?</b></button></div>
       </a>
     </div> 
   </div>
@@ -163,12 +163,12 @@
       <b>Click Here To Drag</b>
       <button class="btn zoomOutButton" id="zoomOutButton"><span class="glyphicon glyphicon-remove"></span></button>
     </div>
-    <img id="modalImage" src="/2021/StudentA/done/A1.JPG" width="100%" height="100%">
+    <img id="modalImage" src="" width="100%" height="100%">
   </div>
 
   <div id="questionContainer" class="vertical-center container-fluid cont">
     <div class="row">
-      <div class="col-lg-3"> <h1 id="questionHead">Question A1</h1> </div>
+      <div class="col-lg-3"> <h1 id="questionHead"></h1> </div>
       <div class="col-lg-1">
         <button id="previousQuestion" class="btn nextButton hide"><span class="glyphicon glyphicon-chevron-left"></span> Previous Question</button> 
       </div>
@@ -180,17 +180,12 @@
         </a>
       </div>
     </div>
-    <div id="question" class="medium"> In LucidChart draw a UML class diagram showing: <br>
-      (a) a class Participant with a private attribute name of type String and a public operation join taking a VideoCall as argument and returning a boolean <br>
-      (b) an abstract class VideoCall <br>
-      (c) concrete subclasses ZoomCall and TeamsCall of VideoCall <br>
-      (d) an appropriate relationship between VideoCall, ZoomCall and TeamsCall <br>
-      (e) an appropriate relationship between Participant and VideoCall, demonstrating that at any one time a given participant can be in at most one video call, while a video call may have any number of participants (including zero, say, to account for scheduled calls).<br><br>
+    <div id="question" class="medium">
     </div>
     <div class="row">
       <div class="col-lg-6">
         <div class="img-holder">
-          <img id="answerImage" src="/2021/StudentA/done/A1.JPG" class="img">
+          <img id="answerImage" src="" class="img">
           <button id="previousAnswer" class="btn nextButton prev hide"><span class="glyphicon glyphicon-chevron-left"></span> Previous Student Answer</button>
           <button id="nextAnswer" class="btn nextButton next">Next Student Answer <span class="glyphicon glyphicon-chevron-right"></span></button>
           <button class="btn zoomButton text-center" id="zoomInButton" data-toggle="modal" data-target="#zoomModal"><span class="glyphicon glyphicon-resize-full"></span></button>
@@ -199,7 +194,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-body">
-                  <img id="modalImage" src="/2021/StudentA/done/A1.jpg" width="100%" height="100%">
+                  <img id="modalImage" src="/2021/StudentA/done/A1.JPG" width="100%" height="100%">
                 </div>
                   <button class="btn zoomButton text-center" id="zoomOutButton" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-resize-small"></span></button>
               </div>
